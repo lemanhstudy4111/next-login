@@ -64,7 +64,11 @@ export default function InputForm() {
 						<FormItem>
 							<FormLabel>Password</FormLabel>
 							<FormControl>
-								<Input placeholder="Enter your password" {...field} />
+								<Input
+									type="password"
+									placeholder="Enter your password"
+									{...field}
+								/>
 							</FormControl>
 							<FormDescription>Enter your password.</FormDescription>
 							<FormMessage />
